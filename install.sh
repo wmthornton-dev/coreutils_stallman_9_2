@@ -13,6 +13,7 @@ sudo cp stallman.1 /usr/local/share/man/man1/
 # **copy** over the "stallman" executable to the /bin directory and create a symlink file called "molest"
 sudo cp stallman /bin/
 sudo ln -sf /bin/stallman /bin/molest
+sudo chmod 755 /bin/stallman
 
 # Update the mandb database
 sudo mandb
